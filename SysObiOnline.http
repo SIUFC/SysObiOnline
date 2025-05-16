@@ -1,0 +1,6 @@
+@SysObiOnline_HostAddress = http://localhost:5037
+
+GET {{SysObiOnline_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
