@@ -1,13 +1,15 @@
-﻿namespace SysObiOnline.Helpers
+﻿using SysObiOnline.Enums;
+
+namespace SysObiOnline.Helpers
 {
     public static class RoleHelper
     {
-        public static string GetRoleName(string role)
+        public static string GetRoleName(RoleType role)
         {
             return role switch
             {
-                "Admin" => "Administrator",
-                "User" => "Regular User",
+                RoleType.Admin => "Administrator",
+                RoleType.User => "Regular User",
                 _ => "Unknown Role"
             };
         }

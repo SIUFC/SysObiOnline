@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "K8KnVnPIM+U=",
+  "dgSpecHash": "E5obhqqqtOw=",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\SysObiOnline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\jwt\\11.0.0\\jwt.11.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

@@ -8,7 +8,7 @@ namespace SysObiOnline.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-        public DbSet<Login> Login { get; set; }
+        
         public DbSet<Users> Users { get; set; }
     }
 }
