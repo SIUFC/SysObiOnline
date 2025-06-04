@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\enums\\testtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:enums\\testtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\repository\\interface\\iusersinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:repository\\interface\\iusersinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 259,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CreateUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\DTOS\\CreateUserDTO.cs",
               "RelativeDocumentMoniker": "DTOS\\CreateUserDTO.cs",
               "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\DTOS\\CreateUserDTO.cs",
               "RelativeToolTip": "DTOS\\CreateUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T13:29:47.998Z",
               "IsPinned": true,
@@ -72,119 +48,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T17:29:55.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsersInterface.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\Interface\\IUsersInterface.cs",
-              "RelativeDocumentMoniker": "Repository\\Interface\\IUsersInterface.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\Interface\\IUsersInterface.cs",
-              "RelativeToolTip": "Repository\\Interface\\IUsersInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T17:16:07.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Repository\\UserRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T17:15:52.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Helpers\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\JwtHelper.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Helpers\\JwtHelper.cs",
-              "RelativeToolTip": "Helpers\\JwtHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T17:12:29.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T16:59:47.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Title": "TestType.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Enums\\TestType.cs",
+              "RelativeDocumentMoniker": "Enums\\TestType.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Enums\\TestType.cs",
+              "RelativeToolTip": "Enums\\TestType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:58:56.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:55:12.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsersDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\DTOS\\UsersDTO.cs",
-              "RelativeDocumentMoniker": "DTOS\\UsersDTO.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\DTOS\\UsersDTO.cs",
-              "RelativeToolTip": "DTOS\\UsersDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:29:00.991Z",
+              "WhenOpened": "2025-06-04T23:31:30.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Service\\UserService.cs",
-              "RelativeToolTip": "Service\\UserService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAnwDUAAAAAAAAAAAAAAA==",
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:13:15.841Z",
+              "WhenOpened": "2025-06-04T23:28:41.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Models\\Report.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Report.cs",
+              "RelativeToolTip": "Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T23:26:38.563Z",
               "EditorCaption": ""
             },
             {
