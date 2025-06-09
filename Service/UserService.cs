@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using SysObiOnline.DTOS;
 using SysObiOnline.Enums;
 using SysObiOnline.Helpers;
@@ -44,6 +45,32 @@ namespace SysObiOnline.Service
             var user = await _userRepository.GetById(id);
             return user;
         }
+        public async Task<UsersDTO> UpdateUser(int id, CreateUserDTO dto)
+        {
+            var existingUser = await _userRepository.GetById(id);
+            if (existingUser == null) throw new Exception("Usuário não encontrado");
+
+            existingUser.Name = dto.Name;
+            existingUser.Email = dto.Email;
+            existingUser.PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password);
+            existingUser.Role = Enum.Parse<RoleType>(dto.Role, true);
+
+            await _userRepository.UpdateUser(existingUser);
+
+            return new UsersDTO
+            {
+                Name = existingUser.Name,
+                Email = existingUser.Email,
+                Role = existingUser.Role.ToString()
+            };
+        }
+        public async Task DeleteUser(int id)
+        {
+            var deletedUser = await _userRepository.GetById(id);
+            if (deletedUser == null) throw new KeyNotFoundException("Argumento de id incorreto.");
+            await _userRepository.DeleteUser(deletedUser);
+        }
+
         public async Task<string> Authenticate(LoginDTO dto)
         {
             var user = await _userRepository.GetByEmail(dto.Email);

@@ -5,6 +5,8 @@ using SysObiOnline.Service;
 
 namespace SysObiOnline.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class LoginController : ControllerBase
     {
         private readonly UserService _userService;

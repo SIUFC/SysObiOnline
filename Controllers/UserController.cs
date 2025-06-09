@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SysObiOnline.Data;
 using SysObiOnline.DTOS;
+using SysObiOnline.Models;
 using SysObiOnline.Service;
-
+using System.Net;
 namespace SysObiOnline.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase
@@ -29,6 +32,51 @@ namespace SysObiOnline.Controllers
             catch (Exception ex)
             {
                 return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateUser(int id, CreateUserDTO dto)
+        {
+            try
+            {
+                var update = await _userService.UpdateUser(id, dto);
+                return Ok(update);
+            } catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Users))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> GetUser(int id)
+        {
+            try
+            {
+                var user = _userService.GetById(id);
+                if (user == null) return BadRequest("Esse usuário não foi encontrado!");
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex);
+            }
+        }
+        [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Users))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            try
+            {
+                await _userService.DeleteUser(id);
+                return NoContent();
+            } catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, new { message = "Erro ao tentar excluir o produto.", error = ex.Message });
             }
         }
     }
