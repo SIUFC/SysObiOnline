@@ -34,6 +34,8 @@ namespace SysObiOnline.Controllers
                 return BadRequest(new { error = ex.Message });
             }
         }
+        
+
         [HttpPut]
         public async Task<IActionResult> UpdateUser(int id, CreateUserDTO dto)
         {
@@ -55,7 +57,7 @@ namespace SysObiOnline.Controllers
         {
             try
             {
-                var user = _userService.GetById(id);
+                var user = await _userService.GetById(id);
                 if (user == null) return BadRequest("Esse usuário não foi encontrado!");
                 return Ok(user);
             }

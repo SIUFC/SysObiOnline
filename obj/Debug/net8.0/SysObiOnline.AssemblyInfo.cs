@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysObiOnline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81938ca405f8fdc49aa8eed787a958136847b5f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f845f25ad90b7200eb65ed8ffb915b4d329058")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysObiOnline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysObiOnline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -151,6 +151,7 @@ c:\Users\pedro\source\repos\SysObiOnline\bin\Debug\net8.0\runtimes\win\lib\net6.
 c:\Users\pedro\source\repos\SysObiOnline\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 c:\Users\pedro\source\repos\SysObiOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.csproj.AssemblyReference.cache
+c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\rpswa.dswa.cache.json
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.GeneratedMSBuildEditorConfig.editorconfig
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.AssemblyInfoInputs.cache
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.AssemblyInfo.cs
@@ -158,6 +159,9 @@ c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.csproj.Co
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.MvcApplicationPartsAssemblyInfo.cs
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.MvcApplicationPartsAssemblyInfo.cache
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\SysObiOnline.sourcelink.json
+c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\rjimswa.dswa.cache.json
+c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\scopedcss\bundle\SysObiOnline.styles.css
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\staticwebassets.build.json
 c:\Users\pedro\source\repos\SysObiOnline\obj\Debug\net8.0\staticwebassets.build.json.cache
