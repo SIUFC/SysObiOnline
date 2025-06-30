@@ -2,7 +2,7 @@
 
 namespace SysObiOnline.Models
 {
-    public class Report
+    public class ReportResult
     {
         [Required]
         public int Id { get; set; }
