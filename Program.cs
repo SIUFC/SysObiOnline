@@ -42,11 +42,12 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// Injeção de dependência
 builder.Services.AddScoped<IUsersInterface, UserRepository>();
 builder.Services.AddScoped<UserService>();
 
-// Swagger com suporte a JWT
+builder.Services.AddScoped<IQuestionInterface, QuestionRepository>();
+builder.Services.AddScoped <QuestionService>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {

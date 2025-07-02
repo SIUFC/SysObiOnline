@@ -10,5 +10,7 @@ namespace SysObiOnline.Data
         }
         
         public DbSet<Users> Users { get; set; }
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<Report> Reports { get; set; }
     }
 }
