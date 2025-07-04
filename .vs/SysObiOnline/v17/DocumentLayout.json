@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\service\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:service\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\repository\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,19 +63,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T00:21:45.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Report.cs",
               "RelativeDocumentMoniker": "Models\\Report.cs",
               "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Report.cs",
               "RelativeToolTip": "Models\\Report.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T23:37:48.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\UserService.cs",
@@ -79,8 +96,7 @@
               "RelativeToolTip": "Service\\UserService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:32:18.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T22:32:18.837Z"
             },
             {
               "$type": "Document",
@@ -90,14 +106,14 @@
               "RelativeDocumentMoniker": "Service\\QuestionService.cs",
               "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Service\\QuestionService.cs",
               "RelativeToolTip": "Service\\QuestionService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T22:22:53.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -105,12 +121,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:21:55.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T22:21:55.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
@@ -118,12 +133,11 @@
               "RelativeToolTip": "Repository\\UserRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:17:51.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T22:17:51.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "QuestionRepository.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\QuestionRepository.cs",
               "RelativeDocumentMoniker": "Repository\\QuestionRepository.cs",
@@ -131,12 +145,11 @@
               "RelativeToolTip": "Repository\\QuestionRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:03:25.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T22:03:25.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IQuestionInterface.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\Interface\\IQuestionInterface.cs",
               "RelativeDocumentMoniker": "Repository\\Interface\\IQuestionInterface.cs",
@@ -144,12 +157,11 @@
               "RelativeToolTip": "Repository\\Interface\\IQuestionInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T21:58:09.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T21:58:09.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Question.cs",
               "RelativeDocumentMoniker": "Models\\Question.cs",
