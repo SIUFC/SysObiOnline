@@ -31,19 +31,20 @@ namespace SysObiOnline.Service
             return getname;
         }
 
-        public async Task<Question> UpdateQuestion(Question question, string name, string level, string content, string nameQ)
+        public async Task<Question> UpdateQuestion(string name, Question newData)
         {
-            var getquestion = await _questionRepository.GetQuestionByName(name);
-            if (getquestion == null) throw new ArgumentNullException("Você digitou uma questão nula!");
-            
-            getquestion.Name = nameQ;
-            getquestion.Level = level;
-            getquestion.Content = content;
+            var existingQuestion = await _questionRepository.GetQuestionByName(name);
+            if (existingQuestion == null)
+                throw new ArgumentNullException("Questão não encontrada!");
 
-            await _questionRepository.UpdateQuestion(question);
-            return getquestion;
-            
+            existingQuestion.Name = newData.Name;
+            existingQuestion.Level = newData.Level;
+            existingQuestion.Content = newData.Content;
+
+            await _questionRepository.UpdateQuestion(existingQuestion);
+            return existingQuestion;
         }
+
 
     }
 }
