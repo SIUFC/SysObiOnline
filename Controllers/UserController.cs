@@ -7,7 +7,7 @@ using SysObiOnline.Service;
 using System.Net;
 namespace SysObiOnline.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase

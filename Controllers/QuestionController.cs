@@ -4,19 +4,22 @@ namespace SysObiOnline.Controllers
 {
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
+    using SysObiOnline.Data;
     using SysObiOnline.Models;
     using SysObiOnline.Service;
 
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "Administrator")] 
+    [Authorize(Roles = "Admin")] 
     public class QuestionController : ControllerBase
     {
+        private readonly AppDbContext _context;
         private readonly QuestionService _questionService;
 
-        public QuestionController(QuestionService questionService)
+        public QuestionController(QuestionService questionService, AppDbContext context)
         {
             _questionService = questionService;
+            _context = context;
         }
 
         [HttpPost("create")]

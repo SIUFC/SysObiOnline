@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SysObiOnline.Models
 {
+   
     public class Question
     {
-        [Required]
-        public string Id { get; set; }  
+        public int Id { get; set; }  
         public string Level { get; set; }
         public string Content { get; set; }
         public string Name { get; set; }

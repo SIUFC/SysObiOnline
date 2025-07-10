@@ -1,4 +1,5 @@
-﻿using SysObiOnline.DTOS;
+﻿using SysObiOnline.Data;
+using SysObiOnline.DTOS;
 using SysObiOnline.Models;
 using SysObiOnline.Repository.Interface;
 
@@ -6,10 +7,13 @@ namespace SysObiOnline.Service
 {
     public class QuestionService
     {
+        private readonly AppDbContext _context;
+
         private readonly IQuestionInterface _questionRepository;
-        public QuestionService(IQuestionInterface questionRepository)
+        public QuestionService(IQuestionInterface questionRepository, AppDbContext context)
         {
             _questionRepository = questionRepository;
+            _context = context;
         }
 
         public async Task<Question> CreateQuestion(Question question)
@@ -20,6 +24,7 @@ namespace SysObiOnline.Service
                 Level = question.Level,
                 Content = question.Content,
                 Year = question.Year,
+                CorrectAnswer = question.CorrectAnswer,
             };
 
             await _questionRepository.CreateQuestion(newquestion);

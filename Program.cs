@@ -47,6 +47,9 @@ builder.Services.AddScoped<UserService>();
 
 builder.Services.AddScoped<IQuestionInterface, QuestionRepository>();
 
+builder.Services.AddScoped<IQuizResultInterface, QuizResultRepository>();
+
+
 builder.Services.AddScoped <QuestionService>();
 builder.Services.AddScoped<QuizService>();
 builder.Services.AddHttpContextAccessor();

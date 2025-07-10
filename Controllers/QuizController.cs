@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SysObiOnline.Data;
 using SysObiOnline.DTOS;
 using SysObiOnline.Service;
 using System.Security.Claims;
@@ -10,11 +11,14 @@ namespace SysObiOnline.Controllers
     [Route("api/[controller]")]
     public class QuizController : ControllerBase
     {
+        private readonly AppDbContext _context;
+
         private readonly QuizService _quizService;
 
-        public QuizController(QuizService quizService)
+        public QuizController(QuizService quizService, AppDbContext context)
         {
             _quizService = quizService;
+            _context = context;
         }
 
         [HttpPost("submit-answer")]
