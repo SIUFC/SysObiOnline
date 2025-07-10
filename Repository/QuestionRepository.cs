@@ -22,8 +22,7 @@ namespace SysObiOnline.Repository
 
         public async Task<Question> GetQuestionById(int id)
         {
-            var question = await _context.Questions.FindAsync(id);
-            return question;
+            return await _context.Questions.FindAsync(id);
         }
 
         public async Task<Question> GetQuestionByName(string name)

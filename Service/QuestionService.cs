@@ -18,6 +18,8 @@ namespace SysObiOnline.Service
             {
                 Name = question.Name,
                 Level = question.Level,
+                Content = question.Content,
+                Year = question.Year,
             };
 
             await _questionRepository.CreateQuestion(newquestion);

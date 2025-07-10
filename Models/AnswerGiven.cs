@@ -6,6 +6,7 @@
         public int QuizResultId { get; set; }
         public QuizResult QuizResult { get; set; }
         public int QuestionId { get; set; }
+        public string Level { get; set; }
         public bool IsCorrect { get; set; }
     }
 

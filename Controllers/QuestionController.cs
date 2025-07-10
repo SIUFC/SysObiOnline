@@ -1,85 +1,69 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using SysObiOnline.Data;
-using SysObiOnline.Models;
-using SysObiOnline.Service;
-using System.Net;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace SysObiOnline.Controllers
 {
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+    using SysObiOnline.Models;
+    using SysObiOnline.Service;
 
-    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
-    public class QuestionController : Controller
+    [Authorize(Roles = "Administrator")] 
+    public class QuestionController : ControllerBase
     {
-        private readonly QuestionService _questionservice;
-        private readonly AppDbContext _context;
+        private readonly QuestionService _questionService;
 
-        public QuestionController (QuestionService questionService, AppDbContext context)
+        public QuestionController(QuestionService questionService)
         {
-            _questionservice = questionService;
-            _context = context;
+            _questionService = questionService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateQuestion(Question question)
+        [HttpPost("create")]
+        public async Task<IActionResult> Create([FromBody] Question question)
         {
             try
             {
-                await _questionservice.CreateQuestion(question);
-                return Ok(new { message = "Questão criado com sucesso!" });
+                var created = await _questionService.CreateQuestion(question);
+                return Ok(created);
             }
             catch (Exception ex)
             {
-                return BadRequest(new { error = ex.Message });
+                return BadRequest(new { message = ex.Message });
             }
-
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetBynName(string name)
+        [HttpGet("{name}")]
+        public async Task<IActionResult> GetByName(string name)
         {
             try
             {
-                await _questionservice.GetByName(name);
-                return Ok(name);
+                var question = await _questionService.GetByName(name);
+                return question != null ? Ok(question) : NotFound("Question not found.");
             }
             catch (Exception ex)
             {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex);
+                return BadRequest(new { message = ex.Message });
             }
-
         }
 
-        [HttpPut]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Question))]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [HttpPut("{name}")]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Question))]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> UpdateQuestion(string name, Question question)
+        [HttpPut("update/{name}")]
+        public async Task<IActionResult> Update(string name, [FromBody] Question updated)
         {
             try
             {
-                var updated = await _questionservice.UpdateQuestion(name, question);
-                return Ok(updated);
+                var result = await _questionService.UpdateQuestion(name, updated);
+                return Ok(result);
             }
             catch (ArgumentNullException ex)
             {
-                return NotFound(ex.Message);
+                return NotFound(new { message = ex.Message });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StatusCode(500, "Erro ao atualizar a questão.");
+                return StatusCode(500, new { message = ex.Message });
             }
         }
-
-
-
-
-
     }
+
 }

@@ -46,7 +46,11 @@ builder.Services.AddScoped<IUsersInterface, UserRepository>();
 builder.Services.AddScoped<UserService>();
 
 builder.Services.AddScoped<IQuestionInterface, QuestionRepository>();
+
 builder.Services.AddScoped <QuestionService>();
+builder.Services.AddScoped<QuizService>();
+builder.Services.AddHttpContextAccessor();
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>

@@ -9,5 +9,7 @@ namespace SysObiOnline.Models
         public string Level { get; set; }
         public string Content { get; set; }
         public string Name { get; set; }
+        public string Year { get; set; }
+        public string CorrectAnswer { get; set; }
     }
 }
