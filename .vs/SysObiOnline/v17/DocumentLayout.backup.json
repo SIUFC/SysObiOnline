@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\",
+  "WorkspaceRootPath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\Models\\Question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\service\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:service\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\Service\\QuestionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Service\\QuestionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\Repository\\QuizResultRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\QuizResultRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\repository\\quizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:repository\\quizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\Repository\\QuestionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\QuestionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\repository\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:repository\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wesle\\Documents\\SysObiOnline\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|c:\\users\\pedro\\source\\repos\\sysobionline\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23E1A54-EF40-408C-8F0B-02595D3E4571}|SysObiOnline.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 149,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,23 +50,19 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SysObiOnline.GlobalUsings.g.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs",
               "RelativeDocumentMoniker": "obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs",
               "RelativeToolTip": "obj\\Release\\net8.0\\SysObiOnline.GlobalUsings.g.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,35 +73,33 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SysObiOnline.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs",
               "RelativeToolTip": "obj\\Release\\net8.0\\SysObiOnline.AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T13:24:14.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T13:24:14.883Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeToolTip": "obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T13:24:12.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T13:24:12.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "QuestionService.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Service\\QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Service\\QuestionService.cs",
               "RelativeDocumentMoniker": "Service\\QuestionService.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Service\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Service\\QuestionService.cs",
               "RelativeToolTip": "Service\\QuestionService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,24 +107,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Models\\Question.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Question.cs",
               "RelativeDocumentMoniker": "Models\\Question.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Models\\Question.cs",
               "RelativeToolTip": "Models\\Question.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:29:35.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:29:35.379Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "QuizResultRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Repository\\QuizResultRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\QuizResultRepository.cs",
               "RelativeDocumentMoniker": "Repository\\QuizResultRepository.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Repository\\QuizResultRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\QuizResultRepository.cs",
               "RelativeToolTip": "Repository\\QuizResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -140,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "QuestionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Repository\\QuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\QuestionRepository.cs",
               "RelativeDocumentMoniker": "Repository\\QuestionRepository.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Repository\\QuestionRepository.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Repository\\QuestionRepository.cs",
               "RelativeToolTip": "Repository\\QuestionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -152,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Wesle\\Documents\\SysObiOnline\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAIwAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
