@@ -82,6 +82,36 @@ namespace SysObiOnline.Service
             return token;
         }
 
+        public async Task<bool> UpdateUserPassword(int userId, string newPassword)
+        {
+
+            var userToUpdate = await _userRepository.GetById(userId); // ou método similar
+
+            if (userToUpdate == null) throw new Exception("Usuário não encontrado");
+
+            userToUpdate.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+
+            await _userRepository.UpdateUser(userToUpdate);
+
+            return true;
+        }
+
+        public async Task<UsersDTO> UpdateUserName(int id, string newName)
+        {
+            var existingUser = await _userRepository.GetById(id);
+            if (existingUser == null) throw new Exception("Usuário não encontrado");
+
+            existingUser.Name = newName;
+
+            await _userRepository.UpdateUser(existingUser);
+
+            return new UsersDTO
+            {
+                Name = existingUser.Name,
+                Email = existingUser.Email,
+                Role = existingUser.Role.ToString()
+            };
+        }
 
     }
 }
