@@ -43,10 +43,43 @@ namespace SysObiOnline.Controllers
             {
                 var update = await _userService.UpdateUser(id, dto);
                 return Ok(update);
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
+        }
+
+        [HttpPut("{id}/name")]
+        public async Task<IActionResult> UpdateUserName(int id, [FromBody] UpdateUserNameDTO dto)
+        {
+            try
+            {
+                var updatedUser = await _userService.UpdateUserName(id, dto.Name);
+                return Ok(new { message = "Usuário atualizado com sucesso!" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpPut("{id}/password")]
+        public async Task<IActionResult> UpdatePassword(int id, [FromBody] UpdatePasswordDTO dto)
+        {
+            if (string.IsNullOrEmpty(dto.NewPassword))
+            {
+                return BadRequest("A nova senha não pode ser vazia.");
+            }
+
+            var result = await _userService.UpdateUserPassword(id, dto.NewPassword);
+
+            if (!result)
+            {
+                return NotFound("Usuário não encontrado.");
+            }
+
+            return Ok(new { message = "Senha alterada com sucesso." });
         }
 
         [HttpGet("{id}")]
