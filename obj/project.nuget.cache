@@ -89,15 +89,5 @@
     "C:\\Users\\pedro\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\pedro\\source\\repos\\SysObiOnline\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\SysObiOnline.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\SysObiOnline.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
