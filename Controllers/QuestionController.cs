@@ -67,6 +67,23 @@ namespace SysObiOnline.Controllers
                 return StatusCode(500, new { message = ex.Message });
             }
         }
+
+
+        [HttpGet("all-names")]
+        public async Task<IActionResult> GetAllNames()
+        {
+            try
+            {
+                var names = await _questionService.GetAllQuestionNamesAsync();
+                return Ok(names);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+
     }
 
 }

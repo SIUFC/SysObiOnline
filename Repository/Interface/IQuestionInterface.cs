@@ -8,6 +8,8 @@ namespace SysObiOnline.Repository.Interface
         public Task UpdateQuestion(Question question);
         public Task<Question> GetQuestionByName(string name);
         public Task<Question> GetQuestionById(int id);
+        public Task<List<string>> GetAllQuestionNamesAsync();
+
 
     }
 }

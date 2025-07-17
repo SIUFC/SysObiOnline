@@ -52,6 +52,11 @@ namespace SysObiOnline.Service
             return existingQuestion;
         }
 
+        public async Task<List<string>> GetAllQuestionNamesAsync()
+        {
+            return await _questionRepository.GetAllQuestionNamesAsync();
+        }
+
 
     }
 }
