@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "55gSTlaxpzo=",
+  "dgSpecHash": "RwePfe/kcCg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\source\\repos\\SysObiOnline\\SysObiOnline.csproj",
+  "projectFilePath": "c:\\Users\\pedro\\source\\repos\\SysObiOnline\\SysObiOnline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

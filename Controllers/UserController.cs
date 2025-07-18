@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SysObiOnline.Data;
 using SysObiOnline.DTOS;
 using SysObiOnline.Models;
@@ -29,9 +30,9 @@ namespace SysObiOnline.Controllers
                 await _userService.CreateUser(dto);
                 return Ok(new { message = "Usuário criado com sucesso!" });
             }
-            catch (Exception ex)
+            catch (DbUpdateException ex)
             {
-                return BadRequest(new { error = ex.Message });
+                throw new Exception("Erro ao salvar no banco: " + ex.InnerException?.Message);
             }
         }
         

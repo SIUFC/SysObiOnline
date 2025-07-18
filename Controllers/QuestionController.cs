@@ -10,7 +10,8 @@ namespace SysObiOnline.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "Admin")] 
+    [Authorize(Roles = "Admin")]
+
     public class QuestionController : ControllerBase
     {
         private readonly AppDbContext _context;

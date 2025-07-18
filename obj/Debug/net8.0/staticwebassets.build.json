@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "5guzTHfPQyonj0kznOJ6GnRjhylzcAxMUOdFPbFrm5k=",
-  "Source": "SysObiOnline",
-  "BasePath": "_content/SysObiOnline",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"eF88zKqGWWtrPQtpBYbUib8ZVmWk+yzpGMELfgGZhIo=","Source":"SysObiOnline","BasePath":"_content/SysObiOnline","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

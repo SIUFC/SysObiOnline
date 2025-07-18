@@ -18,7 +18,15 @@ namespace SysObiOnline.Repository
         public async Task CreateUser(Users users)
         {
             _context.Users.Add(users);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new Exception("Erro ao salvar no banco: " + ex.InnerException?.Message);
+            }
+
         }
 
         public async Task DeleteUser(Users users)
@@ -29,8 +37,10 @@ namespace SysObiOnline.Repository
 
         public async Task<Users> GetByEmail(string email)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            var emailNormalized = email.Trim().ToLower();
+            return await _context.Users.FirstOrDefaultAsync(u => u.Email.ToLower() == emailNormalized);
         }
+
 
         public async Task<Users> GetById(int id)
         {
