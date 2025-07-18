@@ -28,7 +28,7 @@ namespace SysObiOnline.Service
         {
             var questionvar = await _questionRepository.GetQuestionById(dto.QuestionId);
             if (questionvar == null)
-                throw new ArgumentException("Question not found");
+                throw new ArgumentException("Questão Não Encontrada.");
 
             bool isCorrect = questionvar.CorrectAnswer.Trim().ToLower().Equals(dto.SubmittedAnswer.Trim(), StringComparison.CurrentCultureIgnoreCase);
 
@@ -59,7 +59,7 @@ namespace SysObiOnline.Service
                 Level1Count = questionvar.Level == "1" ? 1 : 0,
                 Level2Count = questionvar.Level == "2" ? 1 : 0,
                 Level3Count = questionvar.Level == "3" ? 1 : 0,
-                Message = isCorrect ? "You answered correctly!" : "You answered incorrectly."
+                Message = isCorrect ? "Resposta Correta!" : "Resposta Incorreta."
             };
 
             return summary;
@@ -82,7 +82,7 @@ namespace SysObiOnline.Service
                 Level1Count = allAnswers.Count(a => a.Level == "1"),
                 Level2Count = allAnswers.Count(a => a.Level == "2"),
                 Level3Count = allAnswers.Count(a => a.Level == "3"),
-                Message = "Report summary generated successfully."
+                Message = "Relatório gerado com sucesso."
             };
         }
     }
