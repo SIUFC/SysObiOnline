@@ -1,5 +1,4 @@
 
-
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -12,6 +11,20 @@ services:
     networks:
       - sysobi-network
     restart: unless-stopped
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sysobi_app
+    ports:
+      - "8080:80"
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - sysobi-network
 
 networks:
   sysobi-network:
