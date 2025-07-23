@@ -80,6 +80,64 @@ Editar
 # Restaure os pacotes do projeto
 dotnet restore
 
+----------------------------------------
+
+<h1> COM O DOCKER: </h1>
+
+## 🚀 Executando com Docker
+
+Este projeto está pronto para rodar com Docker. Siga os passos abaixo para subir a aplicação localmente em segundos.
+
+### 🛠 Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+- [Docker](https://www.docker.com/products/docker-desktop)
+- [Docker Compose](https://docs.docker.com/compose/) (se estiver usando `docker-compose.yml`)
+
+### 📦 Build do container
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/SysObiOnline.git
+cd SysObiOnline
+(Opcional) Ajuste as variáveis de ambiente no .env (se aplicável).
+
+Construa a imagem Docker:
+
+bash
+docker build -t sysobionline .
+▶️ Rodando a aplicação
+Com a imagem já construída, execute:
+
+bash
+docker run -d -p 5000:80 --name sysobionline-container sysobionline
+A aplicação estará disponível em: http://localhost:5000
+
+🧪 Rodando com docker-compose (opcional)
+Se você tiver um arquivo docker-compose.yml, basta rodar:
+
+bash
+docker-compose up --build
+🛑 Parando a aplicação
+Para parar e remover o container:
+
+bash
+docker stop sysobionline-container
+docker rm sysobionline-container
+Se estiver usando docker-compose:
+
+bash
+docker-compose down
+🐳 Verificando status
+Veja os containers rodando:
+
+bash
+docker ps
+💬 Contato
+Em caso de dúvidas, abra uma issue ou entre em contato com o mantenedor do projeto.
+
 # (Opcional) Aplique as migrações do banco de dados
 dotnet ef database update
 
