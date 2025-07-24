@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SysObiOnline.DTOS;
 
 namespace SysObiOnline.Controllers
 {
@@ -24,12 +25,12 @@ namespace SysObiOnline.Controllers
         }
 
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromBody] Question question)
+        public async Task<IActionResult> Create([FromBody] CreateQuestionDTO dto)
         {
             try
             {
-                var created = await _questionService.CreateQuestion(question);
-                return Ok(created);
+                var created = await _questionService.CreateQuestion(dto);
+                return Ok(new { message = "Questão criada com sucesso!", data = created });
             }
             catch (Exception ex)
             {
@@ -82,6 +83,20 @@ namespace SysObiOnline.Controllers
             {
                 return StatusCode(500, new { message = ex.Message });
             }
+        }
+        
+        [AllowAnonymous]
+        [HttpGet("filter")]
+        public async Task<IActionResult> GetFilteredQuestions(string level, string year, string phase)
+        {
+            var filteredQuestions = await _questionService.GetFilteredQuestions(level, year, phase);
+            
+            if (!filteredQuestions.Any())
+            {
+                return NotFound(new { Message = "Nenhuma questão encontrada para o filtro especificado." });
+            }
+
+            return Ok(filteredQuestions); 
         }
 
 

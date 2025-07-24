@@ -1,4 +1,5 @@
-﻿using SysObiOnline.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SysObiOnline.Data;
 using SysObiOnline.DTOS;
 using SysObiOnline.Models;
 using SysObiOnline.Repository.Interface;
@@ -16,15 +17,23 @@ namespace SysObiOnline.Service
             _context = context;
         }
 
-        public async Task<Question> CreateQuestion(Question question)
+        public async Task<Question> CreateQuestion(CreateQuestionDTO dto)
         {
             var newquestion = new Question
             {
-                Name = question.Name,
-                Level = question.Level,
-                Content = question.Content,
-                Year = question.Year,
-                CorrectAnswer = question.CorrectAnswer,
+                Name = dto.Name,
+                Level = dto.Level,
+                Content = dto.Content,
+                Year = dto.Year,
+                CorrectAnswer = dto.CorrectAnswer,
+                Statement = dto.Statement,
+                OptionA = dto.OptionA,
+                OptionB = dto.OptionB,
+                OptionC = dto.OptionC,
+                OptionD = dto.OptionD,
+                OptionE = dto.OptionE,
+                ImageUrl = dto.ImageUrl,
+                Phase = dto.Phase
             };
 
             await _questionRepository.CreateQuestion(newquestion);
@@ -55,6 +64,15 @@ namespace SysObiOnline.Service
         public async Task<List<string>> GetAllQuestionNamesAsync()
         {
             return await _questionRepository.GetAllQuestionNamesAsync();
+        }
+        
+        public async Task<List<Question>> GetFilteredQuestions(string level, string year, string phase)
+        {
+            var filteredQuestions = await _context.Question
+                .Where(q => q.Level == level && q.Year == year && q.Phase == phase)
+                .ToListAsync();
+
+            return filteredQuestions; 
         }
 
 
