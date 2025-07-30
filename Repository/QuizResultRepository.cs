@@ -20,13 +20,13 @@ namespace SysObiOnline.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<List<QuizResult>> GetResultsByUserAsync(int userId)
+        /*public async Task<List<QuizResult>> GetResultsByUserAsync(int userId)
         {
             return await _context.QuizResults
                 .Where(r => r.UserId == userId)
                 .Include(r => r.AnswersGiven)
                 .ToListAsync();
-        }
+        }*/
     }
 
 }

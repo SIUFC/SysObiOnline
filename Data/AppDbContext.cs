@@ -13,7 +13,6 @@ namespace SysObiOnline.Data
         public DbSet<Question> Question { get; set; }
         public DbSet<Report> Reports { get; set; }
         public DbSet<QuizResult> QuizResults { get; set; }
-        public DbSet<AnswerGiven> AnswersGiven { get; set; }
 
     }
 }

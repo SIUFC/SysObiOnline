@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using SysObiOnline.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using SysObiOnline.DTOS;
 using SysObiOnline.Service;
-using System.Security.Claims;
 
 namespace SysObiOnline.Controllers
 {
@@ -11,24 +8,19 @@ namespace SysObiOnline.Controllers
     [Route("api/[controller]")]
     public class QuizController : ControllerBase
     {
-        private readonly AppDbContext _context;
-
         private readonly QuizService _quizService;
 
-        public QuizController(QuizService quizService, AppDbContext context)
+        public QuizController(QuizService quizService)
         {
             _quizService = quizService;
-            _context = context;
         }
-
-        [HttpPost("submit-answer")]
-        [Authorize]
-        public async Task<IActionResult> SubmitAnswer([FromBody] AnswerDTO dto)
+        [HttpPost("save-result/{userId}")]
+        public async Task<IActionResult> SaveResult(int userId, [FromBody] QuizResultDTO dto)
         {
             try
             {
-                var result = await _quizService.SubmitAnswer(dto);
-                return Ok(result);
+                var result = await _quizService.SaveQuizResult(userId, dto);
+                return Ok(new { message = "Resultado salvo com sucesso!", data = result });
             }
             catch (Exception ex)
             {
@@ -36,13 +28,12 @@ namespace SysObiOnline.Controllers
             }
         }
 
-        [HttpGet("report")]
-        [Authorize]
-        public async Task<IActionResult> GetReport()
+        [HttpGet("report/{userId}")]
+        // [Authorize] foi removido
+        public async Task<IActionResult> GetReport(int userId)
         {
             try
             {
-                var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
                 var report = await _quizService.GetUserReport(userId);
                 return Ok(report);
             }
@@ -52,5 +43,4 @@ namespace SysObiOnline.Controllers
             }
         }
     }
-
 }
