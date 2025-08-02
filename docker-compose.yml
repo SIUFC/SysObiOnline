@@ -1,16 +1,24 @@
 
 services:
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+    build:
+      context: ./sqlserver  # Novo caminho para o Dockerfile personalizado
     container_name: sqlserver_sysobi
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=YourStrong!Pass123
+      - SA_PASSWORD=SENHASUPERSECRETAPARADOCKEREXECUTARCONTAINER
+      - MSSQL_AGENT_ENABLED=true
     ports:
       - "1433:1433"
     networks:
       - sysobi-network
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'SENHASUPERSECRETAPARADOCKEREXECUTARCONTAINER' -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
 
   app:
     build:
@@ -20,11 +28,14 @@ services:
     ports:
       - "8080:80"
     depends_on:
-      - sqlserver
+      sqlserver:
+        condition: service_healthy
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
     networks:
       - sysobi-network
 
 networks:
   sysobi-network:
+    driver: bridge
