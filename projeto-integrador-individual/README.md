@@ -13,12 +13,15 @@ O projeto SysObiOnline é uma API back-end desenvolvida em ASP.NET Core para apo
 
 ## Conteúdo do pacote
 
-1. `01-contexto-e-objetivos.md` — contexto do problema, objetivos e público-alvo.
-2. `02-requisitos-funcionais-e-nao-funcionais.md` — requisitos do sistema.
-3. `03-arquitetura-e-tecnologias.md` — arquitetura, stack e organização do código.
-4. `04-backlog-e-planejamento.md` — escopo, backlog, cronograma e entregas.
-5. `05-riscos-e-gestao.md` — riscos, indicadores e estratégia de acompanhamento.
-6. `06-api-e-mapa-de-endpoints.md` — endpoints principais da API expostos pelo backend.
+1. `incremento-1-planejamento-inicial.md` — relatório consolidado do Incremento 1, com objetivos, stakeholders, Business Case, viabilidade, BSC, requisitos, EAP, dependências e estimativa de esforço.
+2. `incremento-2-planejamento-e-controle.md` — cronograma PERT/PDM/CPM, custos, valor agregado, qualidade, recursos, comunicação e riscos do Incremento 2.
+3. `incremento-3-integracao-e-encerramento.md` — integração, respostas aos riscos, aquisições, Charter, plano consolidado, KPIs, mudanças, Scrum e encerramento do Incremento 3.
+4. `01-contexto-e-objetivos.md` — contexto do problema, objetivos e público-alvo.
+5. `02-requisitos-funcionais-e-nao-funcionais.md` — requisitos do sistema.
+6. `03-arquitetura-e-tecnologias.md` — arquitetura, stack e organização do código.
+7. `04-backlog-e-planejamento.md` — escopo, backlog, cronograma e entregas.
+8. `05-riscos-e-gestao.md` — riscos, indicadores e estratégia de acompanhamento.
+9. `06-api-e-mapa-de-endpoints.md` — endpoints principais da API expostos pelo backend.
 
 ## Resumo do projeto
 
