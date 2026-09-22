@@ -1,0 +1,205 @@
+RELATORIO CONSOLIDADO - PROJETO INTEGRADOR INDIVIDUAL
+Disciplina: Gestao de Projetos de Software
+Projeto: SysObiOnline - plataforma de pratica para a Olimpíada Brasileira de Informatica (OBI)
+Gerente do Projeto: discente responsavel
+Data de consolidacao: 22/09/2026
+
+1. FINALIDADE DESTE RELATORIO
+
+Este arquivo consolida os artefatos de planejamento produzidos para o
+Projeto Integrador Individual do SysObiOnline. O foco do trabalho e o
+planejamento e o gerenciamento de um projeto de software, e nao a
+implementacao de novas funcionalidades no backend.
+
+Os valores financeiros, composicao da equipe, datas de planejamento,
+indicadores e patrocinador apresentados nos documentos sao estimativas de
+um cenario academico ficticio. Eles nao representam contratos, custos ou
+dados de operacao reais do repositorio.
+
+2. VISAO DO PROJETO
+
+O SysObiOnline foi planejado como uma plataforma para centralizar questoes
+da OBI. O MVP considerado oferece:
+
+- cadastro e autenticacao de usuarios;
+- controle de acesso e autorizacao administrativa;
+- cadastro, atualizacao e consulta de questoes;
+- filtros por nivel, ano e fase;
+- envio e correcao de respostas;
+- relatorio individual de desempenho;
+- documentacao da API por Swagger;
+- persistencia em SQL Server e integracao futura com frontend.
+
+O problema tratado e a dispersao de conteudo e a ausencia de uma estrutura
+unificada para praticar questoes e acompanhar resultados. O objetivo geral
+e planejar e conduzir a entrega de um MVP seguro e mensuravel, dentro do
+escopo, prazo e orcamento aprovados.
+
+3. ARTEFATOS PRODUZIDOS
+
+Os artefatos principais estao organizados em:
+
+1. incremento-1-planejamento-inicial.md
+2. incremento-2-planejamento-e-controle.md
+3. incremento-3-integracao-e-encerramento.md
+
+Os documentos complementares existentes no pacote tambem tratam de
+contexto, requisitos, arquitetura, backlog, riscos e mapa de endpoints.
+O arquivo README.md do diretorio funciona como indice dos entregaveis.
+
+4. INCREMENTO 1 - CONCEPCAO E PLANEJAMENTO INICIAL
+
+Foi elaborado o planejamento inicial do projeto, contendo:
+
+- identificacao do SysObiOnline, problema, contexto, patrocinador ficticio
+  e solucao proposta;
+- objetivo geral e objetivos especificos do MVP;
+- beneficios esperados e criterios de sucesso;
+- escolha de ciclo de vida hibrido, combinando governanca preditiva com
+  desenvolvimento iterativo-incremental;
+- Stakeholder Register, Modelo de Saliencia de Mitchell, Agle e Wood e
+  matriz de engajamento;
+- definicao de estrutura organizacional matricial balanceada, autoridade do
+  gerente e papel de um PMO de suporte;
+- Business Case com alternativas avaliadas, investimento, beneficios,
+  custos, riscos e justificativa;
+- viabilidade financeira, com TMA de 12% ao ano, VPL de R$ 63.180,98,
+  TIR de 38,72% ao ano e payback simples de aproximadamente 2,33 anos;
+- alinhamento estrategico pelo Balanced Scorecard;
+- requisitos funcionais e nao funcionais, historias de usuario, fronteiras
+  de escopo e itens excluidos do MVP;
+- EAP/WBS e dicionario da EAP;
+- identificacao de atividades, dependencias obrigatorias, arbitradas e
+  externas;
+- estimativa de esforco por Planning Poker, com Product Backlog de
+  44 pontos e velocidade inicial planejada de 11 pontos por Sprint.
+
+5. INCREMENTO 2 - CRONOGRAMA, CUSTOS, QUALIDADE, RECURSOS,
+   COMUNICACAO E RISCOS
+
+O segundo incremento detalhou o controle do projeto:
+
+CRONOGRAMA
+- Estimativas PERT para iniciacao, requisitos, arquitetura, UX, ambiente,
+  identidade, catalogo, quiz, testes e aceite.
+- Rede PDM com dependencias termino-inicio.
+- Caminho critico: A -> B -> C -> G -> H -> I -> J.
+- Duracao esperada: 43,50 dias uteis.
+- Baseline de cronograma com marcos de planejamento, arquitetura,
+  autenticacao, catalogo, quiz, testes e aceite.
+- Analise de consequencias de atraso nas atividades criticas.
+
+CUSTOS E VALOR AGREGADO
+- Orcamento no termino (BAC): R$ 75.000,00.
+- Estimativa bottom-up por papel: Gerente do Projeto, back-end, front-end,
+  QA, UX/UI, DevOps e curador de conteudo.
+- Validacao paramétrica baseada em 44 pontos do Product Backlog.
+- Curva S distribuida em oito semanas.
+- Situacao simulada de Valor Agregado ao fim da semana 4:
+  PV = R$ 40.500,00; EV = R$ 36.000,00; AC = R$ 42.000,00;
+  CPI = 0,86; SPI = 0,89; EAC = R$ 87.500,00; TCPI = 1,18.
+- Interpretacao: ha indicios simulados de atraso e sobrecusto, exigindo
+  investigacao de retrabalho, impedimentos e reestimativa.
+
+QUALIDADE
+- Criterios de aceite para autenticacao, autorizacao, catalogo, filtros,
+  quiz, relatorios, desempenho e documentacao.
+- Metas como 100% dos cenarios criticos aprovados, zero acesso indevido em
+  testes de autorizacao, cobertura Swagger de 100% e p95 de filtros menor
+  ou igual a 500 ms no ambiente de teste.
+- Aplicacao de caracteristicas da ISO/IEC 25010: adequacao funcional,
+  desempenho, compatibilidade, usabilidade, confiabilidade, seguranca e
+  manutenibilidade.
+- Aplicacao do ciclo PDCA para prevencao, verificacao e correcao.
+
+RECURSOS E COMUNICACAO
+- Planejamento de equipe com sete papeis: Gerente do Projeto,
+  desenvolvedor back-end, desenvolvedor front-end, QA, UX/UI, DevOps e
+  curador de conteudo.
+- Uso de Tuckman para a evolucao do time e Belbin como apoio a
+  distribuicao de papeis de colaboracao.
+- Plano de comunicacao com stakeholder, informacao, responsavel, canal e
+  periodicidade.
+- Calculo de 21 canais potenciais de comunicacao para uma equipe de sete
+  pessoas, com orientacao para concentrar registros no GitHub Projects.
+
+RISCOS
+- RBS com categorias tecnicas, de projeto, produto/conteudo e externas.
+- Risk Register com riscos de requisitos ambiguos, atraso no catalogo,
+  autorizacao, inconsistencias, infraestrutura, curadoria, custo e equipe.
+- Matriz de probabilidade x impacto e priorizacao dos riscos R01 e R02.
+- Diagrama de Ishikawa para a causa-raiz de atraso em catalogo e filtros.
+
+6. INCREMENTO 3 - INTEGRACAO E ENCERRAMENTO
+
+O terceiro incremento consolidou os planos anteriores e definiu:
+
+RESPOSTAS A RISCOS
+- Estrategias de evitar, mitigar e aceitar para os riscos prioritarios.
+- Cada risco possui acao, gatilho, responsavel e estrategia de monitoramento.
+
+AQUISICOES
+- Analise Make-or-Buy.
+- Desenvolvimento interno para API, autenticacao, quiz e relatorios.
+- Aquisicao de hospedagem, banco gerenciado, dominio e monitoramento.
+- Uso de preco fixo para servicos previsiveis e tempo e material para apoio
+  especializado com demanda variavel.
+
+PROJECT CHARTER E PLANO CONSOLIDADO
+- Carta do Projeto com justificativa, objetivo, entregaveis, premissas,
+  restricoes, autoridade, riscos e criterios de sucesso.
+- Project Management Plan integrado para escopo, cronograma, custos,
+  qualidade, recursos, comunicacao, riscos, aquisicoes, stakeholders e
+  integracao.
+
+KPIs E CONTROLE
+- KPIs de CPI, SPI, taxa de aceite, defeitos criticos, cobertura Swagger,
+  desempenho de filtros e taxa de retorno de usuarios.
+- Rotina de atualizacao diaria do GitHub Projects, Daily Scrum, Review,
+  Retrospective, analise de riscos e medicao de Valor Agregado.
+
+CONTROLE INTEGRADO DE MUDANCAS
+- Change Request simulado: adicao de gamificacao com pontuacao, ranking e
+  medalhas.
+- Impacto analisado em escopo, prazo, custos, qualidade, recursos e riscos.
+- Decisao recomendada: adiar a gamificacao para apos o MVP, para preservar
+  as baselines aprovadas.
+
+METODOS AGEIS
+- Aplicacao de Scrum em quatro Sprints.
+- Epic: plataforma de pratica e acompanhamento de desempenho para a OBI.
+- Product Backlog priorizado com autenticacao, catalogo, filtros, quiz,
+  relatorios, Swagger, testes e aceite.
+- Definicao de Sprint Planning, Sprint Backlog, Daily Scrum, Sprint Review,
+  Sprint Retrospective e Definition of Done.
+
+ENCERRAMENTO
+- Checklist para aceite, documentacao, comparacao com baselines, defeitos,
+  riscos residuais, atualizacao do board e retrospectiva final.
+- Licoes aprendidas relacionadas a refinamento de requisitos, criticidade
+  de catalogo/filtros, validacao do curador, Valor Agregado e atualizacao
+  continua do GitHub Projects.
+
+7. EVIDENCIAS E PROXIMOS PASSOS PARA ENTREGA ACADEMICA
+
+Antes da entrega de cada incremento, o discente deve:
+
+- substituir o marcador de URL pelo link real do GitHub Projects na
+  primeira pagina do relatorio;
+- criar e atualizar Issues/Tasks com responsavel, prioridade, status,
+  labels, milestones e evidencias;
+- manter historico progressivo de atualizacoes no board;
+- reunir o conteudo exigido do incremento em um PDF;
+- compactar o PDF em um unico arquivo .zip no padrao solicitado pela
+  disciplina;
+- enviar o .zip no SIGAA dentro do periodo definido;
+- compartilhar o board com o docente, conforme orientacao recebida.
+
+8. CONCLUSAO
+
+O pacote de documentos produzidos fornece uma visao completa do
+planejamento do SysObiOnline desde a concepcao ate o encerramento. A
+documentacao estabelece uma base para avaliar escopo, viabilidade,
+cronograma, custos, qualidade, riscos, pessoas, comunicacao, aquisicoes,
+mudancas e pratica agil, mantendo rastreabilidade por meio do GitHub
+Projects.
