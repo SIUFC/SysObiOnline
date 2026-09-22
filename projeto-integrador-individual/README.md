@@ -14,13 +14,12 @@ O projeto SysObiOnline é uma API back-end desenvolvida em ASP.NET Core para apo
 ## Conteúdo do pacote
 
 1. `incremento-1-planejamento-inicial.md` — relatório consolidado do Incremento 1, com objetivos, stakeholders, Business Case, viabilidade, BSC, requisitos, EAP, dependências e estimativa de esforço.
-2. `incremento-2-planejamento-e-controle.md` — cronograma PERT/PDM/CPM, custos, valor agregado, qualidade, recursos, comunicação e riscos do Incremento 2.
-3. `01-contexto-e-objetivos.md` — contexto do problema, objetivos e público-alvo.
-4. `02-requisitos-funcionais-e-nao-funcionais.md` — requisitos do sistema.
-5. `03-arquitetura-e-tecnologias.md` — arquitetura, stack e organização do código.
-6. `04-backlog-e-planejamento.md` — escopo, backlog, cronograma e entregas.
-7. `05-riscos-e-gestao.md` — riscos, indicadores e estratégia de acompanhamento.
-8. `06-api-e-mapa-de-endpoints.md` — endpoints principais da API expostos pelo backend.
+2. `01-contexto-e-objetivos.md` — contexto do problema, objetivos e público-alvo.
+3. `02-requisitos-funcionais-e-nao-funcionais.md` — requisitos do sistema.
+4. `03-arquitetura-e-tecnologias.md` — arquitetura, stack e organização do código.
+5. `04-backlog-e-planejamento.md` — escopo, backlog, cronograma e entregas.
+6. `05-riscos-e-gestao.md` — riscos, indicadores e estratégia de acompanhamento.
+7. `06-api-e-mapa-de-endpoints.md` — endpoints principais da API expostos pelo backend.
 
 ## Resumo do projeto
 
